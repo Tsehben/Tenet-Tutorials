@@ -1,0 +1,21 @@
+package com.domitech;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        Scanner s = new Scanner(System.in);
+        int number ;
+        System.out.println("Type in a number: ");
+        number = s.nextInt();
+
+       String message = (number%2==0) ?
+                "is an Even number":
+                "is an odd number";
+        System.out.println(number+ " "+ message);
+
+
+    }
+}
